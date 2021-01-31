@@ -121,9 +121,10 @@ th, td {
 }
 .details {
 	border-radius:28px;
-	border:1px solid #FF3D00;
-    display:inline-block;
-    text-transform: uppercase;
+	border:2px solid #FF3D00;
+	font-weight: 700;
+    	display:inline-block;
+    	text-transform: uppercase;
 	cursor:pointer;
 	color:#FF3D00;
 	font-size:14px;
