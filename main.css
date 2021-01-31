@@ -179,7 +179,6 @@ th, td {
 }
 .menu__link:hover {
     color:#FF3D00
-    transition-duration: 100ms;
 }
 .more {
     display: inline-block;
