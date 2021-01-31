@@ -148,8 +148,7 @@ th, td {
 	top:1px;
 }
 .logo {
-    position: absolute;
-    left: -50px;
+   
 }
 .main-page-wrapper {
     background: url(img/hero.png) center top no-repeat, url(img/bottom-pic.png) right bottom 306px no-repeat;
