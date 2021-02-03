@@ -43,7 +43,7 @@ th, td {
     vertical-align: top;
     width: 490px;
     height: 505px;
-    background: url(/img/cameraman.png) center left / cover no-repeat;
+    background: url(img/cameraman.png) center left / cover no-repeat;
 }
 
 .about__desc {
@@ -82,7 +82,7 @@ th, td {
     text-align: left;
 }
 .main-page-wrapper {
-    background: url(/img/hero.png) center top no-repeat, url(/img/bottom-pic.png) center bottom 306px no-repeat;
+    background: url(img/hero.png) center top no-repeat, url(img/bottom-pic.png) center bottom 306px no-repeat;
 }
 .main__header {
     margin-bottom: 17px;
@@ -207,4 +207,3 @@ th, td {
     margin-bottom: 31px;
     margin-top: 0;
 }
-
