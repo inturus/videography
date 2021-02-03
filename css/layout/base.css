@@ -40,7 +40,7 @@ ul li {
 }
 
 hr {
-    width: 1150px;
+    width: 1140px;
     border: none;
     border-radius: 1px;
     background-color: #2d3035;
@@ -56,7 +56,7 @@ hr {
     color:#FF3D00;
     font-weight: 700;
 	font-size:14px;
-    padding:16px 31px;
+    padding:16px 50px;
     transition-duration: 100ms;
 }
 .details:hover {
@@ -67,7 +67,7 @@ hr {
 
 .container {
     margin: 0 auto;
-    width: 1150px;
+    width: 1140px;
 }
 
 .wrapper {
