@@ -43,7 +43,7 @@ th, td {
     vertical-align: top;
     width: 490px;
     height: 505px;
-    background: url(img/cameraman.png) center left / cover no-repeat;
+    background: url(../img/cameraman.png) center left / cover no-repeat;
 }
 
 .about__desc {
