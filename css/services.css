@@ -25,7 +25,7 @@ p {
 }
 
 .service-bg--img {
-    background: url('/img/services-img/top-line.png') center top no-repeat;
+    background: url('../img/services-img/top-line.png') center top no-repeat;
 }
 
 .service {
