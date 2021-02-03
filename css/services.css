@@ -15,6 +15,9 @@ p {
     margin: 0;
 }
 
+.breadcrumbs {
+    padding-top: 15px;
+}
 
 .details-cell {
     padding: 5px 58px 50px;
@@ -25,11 +28,11 @@ p {
 }
 
 .service-bg--img {
-    background: url('../img/services-img/top-line.png') center top no-repeat;
+    background: url('img/services-img/top-line.png') center top no-repeat;
 }
 
 .service {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .service__desc {
@@ -42,7 +45,7 @@ p {
 }
 
 .service__item:nth-child(1) {
-     margin-bottom: 49px;
+     margin-bottom: 25px;
 }
 
 .service-title {
@@ -69,6 +72,7 @@ p {
 .main {
     color: #303030;
     font-size: 16px;
+    
 }
 
 .main .container {
@@ -113,7 +117,7 @@ p {
 }
 .partners--bg {
     background: #F4F5F5;
-    padding-bottom: 121px;
+    padding-bottom: 82px;
 }
 
 .partners__item {
@@ -128,5 +132,5 @@ ul li {
 .partners-title {
     font-size: 48px;
     font-weight: 800;
-    margin-bottom: 82px;
+    margin-bottom: 40px;
 }

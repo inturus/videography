@@ -49,24 +49,34 @@ th, td {
 .about__desc {
     background: #fff;
     color: #060606;
-    padding: 70px 80px;
+    padding: 70px 80px 10px;
     width: 785px; 
+    min-height: 455px;
     display: inline-block;
     text-align: left;
-    margin-left: -315px;
-    margin-top: 228px;
+    margin-left: -140px;
+    margin-top: 90px;
     border-radius: 4px;
 }
 
 .about_desc-text {
-    margin-bottom: 43px;
+    padding-bottom: 50px;
+    padding-top:0px;
     max-width: 502px;
     line-height: 27px;
     font-size: 16px;
+    
 }
 .about_desc-text p {
     margin-bottom: 20px;
 }
+.about__title {
+    font-weight: 800;
+    font-size: 36px;
+    
+    margin-top: 0;
+}
+
 
 .cameraman {
     position: absolute;
@@ -75,8 +85,13 @@ th, td {
     left: 100px;
 } 
 
-
-
+.container {
+    display: flex;
+    justify-content: center;
+}
+.item-img {
+    margin-bottom: 16px;
+}
 
 .logo-img {
     text-align: left;
@@ -85,9 +100,11 @@ th, td {
     background: url(../img/hero.png) center top no-repeat, url(../img/bottom-pic.png) center bottom 306px no-repeat;
 }
 .main__header {
-    margin-bottom: 17px;
+    margin-top: 55px;
+    line-height: 98.05px;
 }
 .main__how {
+    font-size: 18px;
     margin-bottom: 43px;
 }
 .main__who-are {
@@ -99,12 +116,9 @@ th, td {
     margin-top: 100px;
     text-align: center;
     width: 776px;
-    margin-bottom: 230px;
+    margin-bottom: 242px;
 }
- .container {
-    display: flex;
-    justify-content: center;
-}
+
 .menu {
     display: flex;
     position: relative;
@@ -143,14 +157,14 @@ th, td {
 .more__type-of-service {
     vertical-align: top;
     border-radius: 2%;
-    min-height: 443px;
+    min-height: 475px;
     max-width: 362px;
     padding-left: 22px;
     background: white;
     border: 5px solid #fff;
     color: #666666;
     text-align: left;
-    padding: 15px;
+    padding: 31px 17px;
     transition-duration: 200ms;
 }
 
@@ -159,6 +173,10 @@ th, td {
 }
 .more__type-of-service table {
     margin-bottom: 47px;
+}
+.more__type-of-service .details {
+    display: inline-block;
+    margin-top: 8px;
 }
 .news {
     text-align: left;
@@ -198,12 +216,8 @@ th, td {
 .section h2 {
     text-align: left;
     font-size: 36px;
+    margin-bottom: 60px;
 }
 
 
-.about__title {
-    font-weight: 800;
-    font-size: 36px;
-    margin-bottom: 31px;
-    margin-top: 0;
-}
+

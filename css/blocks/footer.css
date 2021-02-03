@@ -3,6 +3,9 @@
     margin-left: 80px;
     font-style: normal;
 }
+.contacts__desc {
+    font-size: 11px;
+}
 
 .contacts__number {
     display: block;
@@ -37,8 +40,8 @@
 }
 
 .socials {
-    vertical-align: top;
-    display: flex;
+    /* vertical-align: top; */
+    display: inline-flex;
     margin-right: 70px;
 
 }
