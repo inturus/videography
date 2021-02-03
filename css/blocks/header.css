@@ -1,0 +1,43 @@
+.contacts {
+    text-align: right;
+    margin-left: 80px;
+    font-style: normal;
+}
+
+.contacts__number {
+    display: block;
+    font-size: 26px;
+}
+.contacts__shedule {
+    text-decoration: underline;
+}
+
+.header {
+    margin-top: 26px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ .header .container:last-child {
+    align-items: flex-end;
+}
+
+.logo-img {
+    text-align: left;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    bottom: 20PX;
+    padding-left: 200px;
+}
+.menu__button {
+    margin-right: 54px;
+}
+.menu__link:hover {
+    color:#FF3D00;
+    transition-duration: 200ms;
+}
