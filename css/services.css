@@ -119,12 +119,17 @@ p {
     background: #F4F5F5;
     padding-bottom: 82px;
 }
-
 .partners__item {
     width: 275px;
     flex: 1;
     padding: 35px 0 35px 0;
+    filter: grayscale(1);
+    transition: 150ms;
 }
+.partners__item:hover {
+    filter: grayscale(0);
+}
+
 ul li {
     display: inline-flex;
 }
