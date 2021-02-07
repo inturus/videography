@@ -1,6 +1,5 @@
 .contacts {
     text-align: right;
-    margin-left: 80px;
     font-style: normal;
 }
 .contacts__desc {
@@ -42,7 +41,7 @@
 .socials {
     /* vertical-align: top; */
     display: inline-flex;
-    margin-right: 70px;
+    /* margin-right: 70px; */
 
 }
 .socials__item {
