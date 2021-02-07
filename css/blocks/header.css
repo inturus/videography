@@ -31,8 +31,8 @@
 .menu {
     display: flex;
     position: relative;
-    bottom: 20PX;
-    padding-left: 200px;
+    bottom: 10PX;
+    padding-left: 125px;
 }
 .menu__button {
     margin-right: 54px;
