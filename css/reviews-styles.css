@@ -217,9 +217,7 @@ width: 48%;
 .review__img {
     width: 136px;
 }
-.review__img--1 {
-    background: url('img/review/review_sprites.png') -142px -142px;
-}
+
 .review__img-cell {
     text-align: left;
 }
