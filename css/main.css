@@ -90,6 +90,18 @@ th, td {
 }
 .item-img {
     margin-bottom: 16px;
+    width: 84px; height: 80px;
+}
+.item-img--tv {
+    background: url('../img/services-sprites.png') -1px -1px;
+}
+.item-img--clapper {
+    width: 76px; height: 76px;
+    background: url('../img/services-sprites.png') -87px -1px;
+}
+.item-img--tv {
+    width: 76px; height: 76px;
+    background: url('../img/services-sprites.png') -1px -83px;
 }
 
 .logo-img {
@@ -183,9 +195,7 @@ th, td {
     display: flex;
     justify-content: space-between;
 }
-.news__item{
-    
-}
+
 .news__cover {
     display: block;
     width: 100%;

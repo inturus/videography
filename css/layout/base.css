@@ -70,6 +70,8 @@ hr {
     width: 1140px;
 }
 
+
+
 .wrapper {
     overflow: hidden;
     min-width: 1250px;
@@ -79,7 +81,7 @@ hr {
     position: relative;
 }
 
-.wrapper__content {
-    /* flex: 1; */
-}
+/* .wrapper__content {
+    
+} */
 

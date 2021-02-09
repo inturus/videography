@@ -8,8 +8,55 @@
     display: block;
     font-size: 26px;
 }
-.contacts__shedule {
+
+.dropdown {
+    position: relative;
+}
+.dropdown:hover .dropdown__menu {
+    left: 20px;
+    opacity: 1;
+
+}
+.dropdown__menu {
+    color: #1E1F20;
+    text-align: left;
+    position: absolute;
+    background:rgba(205, 209, 210, 0.8);
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 20px;
+    left:-9999px;
+    opacity: 0;
+    transition: opacity .4s;
+}
+.dropdown__menu::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 18px solid transparent;
+    border-bottom-color: rgba(205, 209, 210, 0.8);
+    border-top-width: 0;
+    display: block;
+    position: absolute;
+    transform: translate(247%,-426%);
+}
+.dropdown__menu::before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+}
+.dropdown__link {
     text-decoration: underline;
+}
+.dropdown__item {
+    display: block;
+}
+.dropdown__item:first-child {
+    margin-bottom: 7px;
 }
 
 .header {

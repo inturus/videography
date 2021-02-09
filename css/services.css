@@ -7,7 +7,7 @@
 
 
 main {
-    background: #E5E5E5;
+    background: #F4F5F5;
 }
 
 p {
@@ -26,7 +26,6 @@ p {
 .footer .container {
     margin-top: 44px;
 }
-
 .service-bg--img {
     background: url('../img/services-img/top-line.png') center top no-repeat;
 }
@@ -90,6 +89,7 @@ p {
 }
 .pager__item--active .pager__link {
     color: white;
+    
 }
 
 .partners {
@@ -116,9 +116,10 @@ p {
     justify-content: center;
 }
 .partners--bg {
-    background: #F4F5F5;
+    background: #E5E5E5;
     padding-bottom: 82px;
 }
+
 .partners__item {
     width: 275px;
     flex: 1;
@@ -129,7 +130,6 @@ p {
 .partners__item:hover {
     filter: grayscale(0);
 }
-
 ul li {
     display: inline-flex;
 }
