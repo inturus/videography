@@ -51,6 +51,7 @@
 }
 .dropdown__link {
     text-decoration: underline;
+    color: #FF3D00;
 }
 .dropdown__item {
     display: block;
